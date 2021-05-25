@@ -1,0 +1,93 @@
+.buttons,
+.div-logo {
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+.register {
+    text-align: center;
+    margin-right: 50%;
+}
+.login {
+    text-align: center;
+    margin-right;
+}
+.logo-1 {
+    widht: 50%;
+    height: 50%;
+}
+.logo {
+    width: 25%;
+    height: 25%;
+}
+
+.outer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.alert {
+    position: absolute;
+    overflow: hidden;
+    z-index: 2400;
+    opacity: 0.70;
+    top: 0px !important;
+    margin-bottom: 74%;
+    width: 98%;
+    height: 5%;
+    margin: 1%;
+}
+
+
+/* Large desktop */
+
+@media (min-width: 1280px) {
+    .forms {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 5%;
+    }
+    .scrollable {
+        height: 0%;
+    }
+    .logo {
+        margin-bottom: -5%;
+    }
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 812px) and (max-width: 1280px) {
+    .forms {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .scrollable {
+        height: 0%;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 812px) {
+    .forms {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .scrollable {
+        height: 75px;
+    }
+}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .forms {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
